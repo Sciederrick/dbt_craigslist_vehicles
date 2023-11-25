@@ -1,0 +1,14 @@
+my_snowflake_profile:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "YUZNJEN-BC52943"
+      user: "{{ env_var('USERNAME') }}"
+      password: "{{ env_var('DBT_ENV_SECRET_PWD') }}"
+      role: "ACCOUNTADMIN"
+      database: "AUTOMOTIVE"
+      warehouse: "COMPUTE_WH"
+      schema: "PUBLIC"
+      threads: 4
+      client_session_keep_alive: False
