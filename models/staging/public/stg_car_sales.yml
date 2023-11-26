@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_car_sales
+    description: "fact model with modified dtypes"
+    +column_types:
+      id: number
+      price: float
+      year: number
+      odometer: number
+      lat: float
+      long: float
+      posting_date: date
+      removal_date: date
+    columns: 
+      - name: id
+        tests: 
+          - unique
