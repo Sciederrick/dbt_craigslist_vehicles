@@ -1,7 +1,5 @@
-{{ set_quoted_identifiers_ignore_case() }}
-
 select
-    id,
+    CAST(id AS INTEGER) AS id,
     url,
     state,
     region,
@@ -19,6 +17,6 @@ select
     type,
     paint_color,
     image_url,
-    description
+    CAST(description AS TEXT) AS description
     
 from {{ source('public', 'craigslist_vehicles') }}

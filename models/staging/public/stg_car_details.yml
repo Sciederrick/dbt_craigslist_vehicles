@@ -3,27 +3,11 @@ version: 2
 models:
   - name: stg_car_details
     description: "dimension model with modified dtypes"
-    +column_types:
-      id: number
-      url: varchar
-      state: varchar
-      region: varchar
-      region_url: varchar
-      manufacturer: varchar
-      model: varchar
-      condition: varchar
-      cylinders: varchar
-      fuel: date
-      title_status: varchar
-      transmission: varchar
-      vin: varchar
-      drive: varchar
-      size: varchar
-      type: varchar
-      paint_color: varchar
-      image_url: varchar
-      description: text
     columns: 
       - name: id
         tests: 
           - unique
+      - name: vin
+        tests:
+          - unique
+          

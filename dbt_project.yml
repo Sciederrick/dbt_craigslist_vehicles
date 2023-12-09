@@ -22,3 +22,6 @@ models:
   dbt_craigslist_vehicles:
     marts:
       +materialized: table
+
+
+
