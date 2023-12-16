@@ -1,4 +1,5 @@
--- Inventory: Vehicle count by manufacturer, model, yr
+-- Inventory: Vehicle count by manufacturer, model
+
 with 
 sales as (
 
@@ -34,3 +35,5 @@ inventory as (
 )
 
 select * from inventory 
+
+
