@@ -24,3 +24,4 @@
 - snowflake
 - dbt
 - powerBI
+- AWS (S3 & SQS)
