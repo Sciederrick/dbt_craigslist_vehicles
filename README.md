@@ -1,4 +1,4 @@
-
+[visuals screenshot](./screenshot.png)
 ### Craigslist Vehicles Data Transformation
 
 **Inventory Levels:** Fact tables to display inventory levels over time, helping the company manage their stock and make informed decisions about inventory management
