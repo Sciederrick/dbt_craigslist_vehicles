@@ -9,5 +9,7 @@
 
 ### Tools
 
+- postgresql
+- snowflake
 - dbt
 - powerBI
