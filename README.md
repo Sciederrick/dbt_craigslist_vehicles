@@ -9,14 +9,14 @@
 
 ### Implementation
 
-- [*] Clean data (for proper formatting)
-- [*] Load CSV data into Postgresql with SQL `copy` command
-- [*] Export CSV data with `copy` command
-- [*] Send CSV file to Amazon S3
-- [*] Setup Snowflake to respond to new S3 upload events with Amazon SQS
-- [*] On AWS insert event, refresh data in Snowflake
-- [*] Load data from Snowflake on PowerBI
-- [*] Use data to create visuals
+- [x] Clean data (for proper formatting)   
+- [x] Load CSV data into Postgresql with SQL `copy` command
+- [x] Export CSV data with `copy` command
+- [x] Send CSV file to Amazon S3
+- [x] Setup Snowflake to respond to new S3 upload events with Amazon SQS
+- [x] On AWS insert event, refresh data in Snowflake
+- [x] Load data from Snowflake on PowerBI
+- [x] Use data to create visuals
 
 ### Tools
 
